@@ -1,0 +1,65 @@
+body{
+	font-family: arial;
+	color: #fff;
+}
+
+div.color{
+	display: block;
+	width: 60px;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+}
+
+div.color div{
+	width: inherit;
+	cursor: pointer;
+	transition: width 0.4s ease, margin 0.4s ease;
+}
+
+div.color div:hover{
+	width: 100px;
+	margin: 0 0 0 -20px;
+	cursor: pointer;
+}
+
+div#redscale{
+	position: absolute;
+	top: 32px;
+	left:608px;
+}
+
+div#greenscale{
+	position: absolute;
+	top:284px;
+	left:478px;
+	transform: rotate(45deg);
+}
+
+div#bluescale{
+	position: absolute;
+	top:284px;
+	left:738px;
+	transform: rotate(-45deg);
+}
+
+div#yellowscale{
+	position: absolute;
+	top: 84px;
+	left: 478px;
+	transform: rotate(-45deg);
+}
+
+div#cyanscale{
+	position: absolute;
+	top: 338px;
+	left: 608px;
+	transform: rotate(0deg);
+}
+
+div#magentascale{
+	position: absolute;
+	top: 84px;
+	left: 738px;
+	transform: rotate(45deg);
+}
